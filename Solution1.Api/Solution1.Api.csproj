@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solution1.Core\Solution1.Core.csproj" />
+    <ProjectReference Include="..\Solution1.Infra\Solution1.Infra.csproj" />
+    <ProjectReference Include="..\Solution1.ServiceLibrary\Solution1.ServiceLibrary.csproj" />
+  </ItemGroup>
+
+
+</Project>
